@@ -1,0 +1,8 @@
+- Pclass is super useful.
+- Names are not giving much information, but their length are proportional to the survival rate.
+- I think handling missing values of Age using the average age based on titles('Mr.', 'Mrs.', 'Master.', 'Miss.') is a good idea.
+- If age is estimated(xx.5), this can be used as a parameter, also using this parameter we can incorporate missingness of age.
+- Is Alone feature is also quite useful.
+- I am keeping SibSp and Parch instead of Family_Size.
+- For Tickets, using the first letter.
+- For CabinInfo, I am using mean of groups by first letter and if empty then mean of empty cabins.
