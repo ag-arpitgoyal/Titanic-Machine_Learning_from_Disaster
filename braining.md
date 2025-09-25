@@ -4,5 +4,6 @@
 - If age is estimated(xx.5), this can be used as a parameter, also using this parameter we can incorporate missingness of age.
 - Is Alone feature is also quite useful.
 - I am keeping SibSp and Parch instead of Family_Size.
-- For Tickets, using the first letter.
 - For CabinInfo, I am using mean of groups by first letter and if empty then mean of empty cabins.
+
+- now used log(fare)   (for xgb_submission_best and getting 0.78947)
